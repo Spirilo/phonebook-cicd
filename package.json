@@ -9,8 +9,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-ui": "@powershell Remove-Item -Recurse -Force build && cd frontend && npm run build && @powershell Copy-Item build -Recurse ../",
     "deploy:full": "npm run build:ui && git add . && git commit -m uibuild && git push",
-    "lint": "eslint .",
-    "build-render": "rm -rf build && cd frontend && npm run build && cp -r build ../"
+    "lint": "eslint ."
   },
   "author": "Niko",
   "license": "ISC",
