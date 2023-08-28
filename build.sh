@@ -7,4 +7,4 @@ cd frontend
 npm install
 cd ../
 mkdir build
-npm run build-ui
+npm run build-render
