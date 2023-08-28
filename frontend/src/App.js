@@ -93,7 +93,7 @@ const App = () => {
       <h2>Phonebook</h2>
       <Notification message={errorMessage} />
       <Filter filter={filter} handleChange={ev => changeFilter(ev.target.value)}/>
-      <h2>Add a new</h2>
+      <h2>Add a new person</h2>
       <PersonForm name={newName} number={newNumber} nameChange={ev => changeName(ev.target.value)}
         numberChange={ev => changeNumber(ev.target.value)} addPerson={ev => addPerson(ev)} />
       <h2>Numbers</h2>
