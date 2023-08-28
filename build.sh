@@ -6,4 +6,4 @@ npm install
 cd frontend
 npm install
 cd ../
-npm run build-render
+npm run build-ui
