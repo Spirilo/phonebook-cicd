@@ -58,7 +58,7 @@ const App = () => {
         .create(person)
         .then(person => {
           setPersons(persons.concat(person))
-          setErrorMessage(`${person.name} was added!`)
+          setErrorMessage(`${person.name} was added.`)
           setTimeout(() => {
             setErrorMessage(null)
         }, 5000)
