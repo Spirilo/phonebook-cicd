@@ -13,7 +13,6 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: '16'
-      - uses: JorgeLNJunior/render-deploy@v1.4.1
       - name: Install backend
         run: npm install
       - name: Install frontend
