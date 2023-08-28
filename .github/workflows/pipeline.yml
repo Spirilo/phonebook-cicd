@@ -22,5 +22,7 @@ jobs:
       - name: Check lint
         run: npm run lint
       - name: Build
-        run: npm run build-ui
+        run: |
+          mkdir build 
+          npm run build-ui
       
